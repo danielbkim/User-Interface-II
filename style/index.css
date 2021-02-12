@@ -79,7 +79,7 @@ nav ul {
 	margin: 0% 2% 0% 0%;
 	/* padding: 2% 1% 2% 18%; */
 	/* text-decoration: none; */
-
+	/* border-radius: 5px; */
 }
 
 .nav-items {
@@ -96,6 +96,10 @@ nav ul {
 .main-section {
 	display: flex;
 	justify-content: center;
+}
+
+.main-section-image-container {
+	/* width: 100%; */
 }
 
 h1 {
@@ -115,8 +119,12 @@ h3 {
 }
 
 img {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
+}
+
+.project-grid ul {
+	display: flex;
 }
 
 .nav-items:hover {
