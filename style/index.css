@@ -51,16 +51,54 @@ table {
 * {
     box-sizing: border-box;
 	margin: 20px;
+	/* border: 1px solid red; */
+}
+
+html {
+	font-size: 62.5%;
+	/* border: 1px solid red; */
 }
 
 body {
-	font-family: "Roboto Mono";
+	font-family: "Lato";
 	font-size: 1.6rem;
-	border: 5px solid red;
+}
+nav {
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: orange;
+}
+
+nav ul {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: flex-end;
+	width: 70%;
+	margin: 0% 2% 0% 0%;
+	/* padding: 2% 1% 2% 18%; */
+	/* text-decoration: none; */
+
+}
+
+.nav-items {
+	border: 1px solid black;
+	padding: 2% 5% 2% 5%;
+	margin: 2% 0% 2% 0%;
+	/* width: 120%; */
+	align-items: center;
+	background-color: red;
+	text-decoration: none;
+	
 }
 
 h1 {
-	font-size: 1.6rem;
+	/* border: 1px solid red; */
+	font-size: 2rem;
+	width: 30%;
+	padding: 2.5% 0% 0% 4%;
+	font-weight: 700;
 }
 
 h2 {
@@ -69,4 +107,9 @@ h2 {
 
 h3 {
 	font-size: 0.5rem;
+}
+
+img {
+	width: 80%;
+	margin: 0 auto;
 }
